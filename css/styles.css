@@ -47,9 +47,8 @@ section {
     margin-bottom: 3rem;
 }
 
-#inicio-titulo, #inicio-descripcion {
+#inicio-titulo, #inicio-descripcion{
     text-align: center;
-  text-align: center;
 }
 
 /* Sección Libros (Flexbox) */
@@ -82,6 +81,9 @@ section {
     border-radius: 4px;
 }
 
+#libros h2 {
+    text-align: center;}
+
 /* Sección Reseñas (Grid) */
 .grid-resenias {
     display: grid;
@@ -104,6 +106,14 @@ section {
     transition: background-color 0.3s ease, border-left-color 0.3s ease;
 }
 
+#resenias h2 {
+    text-align: center;
+}
+
+/* Sección Video */
+#video {
+    text-align: center;
+}
 /* Sección Contacto y Formulario */
 .formulario-contacto {
     max-width: 600px;
@@ -130,6 +140,10 @@ section {
     cursor: pointer;
     font-size: 1rem;
     font-family: 'Lora', Georgia, serif;
+}
+
+#contacto h2 {
+    text-align: center;
 }
 
 /* Footer */
