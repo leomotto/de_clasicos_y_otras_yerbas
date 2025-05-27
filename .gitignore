@@ -1,0 +1,9 @@
+# Archivos del sistema operativo Windows
+desktop.ini
+Thumbs.db
+
+# Archivos del sistema operativo macOS
+.DS_Store
+
+# Carpeta de configuración de Visual Studio Code
+.vscode/
